@@ -1,0 +1,51 @@
+/* font styles */
+/* .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+  
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+} */
+
+/* Set up multiple customizable styles */
+:root{
+    --root-size: 15px;
+    --surface: #fff;
+
+    --text-color-grey-400: hsl(212, 6%, 44%);
+    --text-color-grey-500: hsl(234, 12%, 34%);
+    --text-preset12-size: calc(36 / 15 * 1rem);
+    --text-preset3-size: calc(20 / 15 * 1rem);
+    --text-preset4-size: 1rem;
+    --text-preset5-size: calc(13 / 15 * 1rem);
+    --text-preset124-line-height: 140%;
+    --text-preset3-line-height: 135%;
+    --text-preset5-line-height: 160%;
+    --text-preset12-letter-spacing: calc(0.25 / 15 * 1rem);
+
+    --border-color-team-builder: hsl(0, 78%, 62%);
+    --border-color-karma: hsl(34, 97%, 64%);
+    --border-color-supervisor: hsl(180, 62%, 55%);
+    --border-color-calculator: hsl(212, 86%, 64%);
+
+    --card-radius: calc(8 / 15 * 1rem);
+    --card-padding-gap: calc(32 / 15 * 1rem);
+    --card-text-gap: calc(6 / 15 * 1rem);
+
+    --card-height: calc(250 / 15 * 1rem);
+}
+  
+*, *::before, *::after { 
+    box-sizing:border-box; 
+}
+  
